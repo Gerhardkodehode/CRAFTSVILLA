@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilbakemeldingssiden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vi vil gjerne høre fra deg!</h1>
+    <p>Tilbakemeldingene dine hjelper oss med å gjøre workshopene våre bedre for alle. Del gjerne opplevelsen din med oss!</p>
+
+     <form class="form">
+      <label for="name">Navn:</label>
+      <input type="text" name="name" placeholder="Skriv inn navnet ditt" />
+      <label for="email">E-post:</label>
+      <input type="email" name="email" placeholder="Skriv inn eposten din" />
+
+    <label for="text">Din favorittdel</label>
+    <input type="text" name="text" placeholder="Hva likte du best?">
+
+    <label for="forbedringsområder">Forbedringsområder</label>
+    <input type="text" placeholder="Hvordan kan vi forbedre opplevelsen din?">
+
+  <label for="Workshop deltatt">Workshop deltatt</label>
+  <select name="Workshop deltatt" id="Workshop deltatt">
+      <option value="mosaikkkunst">Mosaikkkunst</option>
+      <option value="akvarellmaling">Akvarellmaling</option>
+      <option value="lerretsmaling">Lerretsmaling</option>
+      <option value="annet/flere">Annet</option> 
+  </select>
+
+    <label for="Vil du anbefale CRAFTSVILLA til andre?">Vil du anbefale CRAFTSVILLA til andre?</label>
+  <select name="anbefaliger" id="anbefaliger">
+      <option value="ja">Ja</option>
+      <option value="kanskje">Kanskje</option>
+      <option value="nei">Nei</option>
+    </select>
+
+    <label for="image">Last opp bilde:</label>
+    <input type="file" id="image" name="image" accept="image/*">
+
+
+      <label>
+        <input type="checkbox" name="permission">
+        Jeg gir CRAFTSVILLA tillatelse til å dele tilbakemeldingene mine på nettstedet deres eller sosiale medier.
+      </label>
+
+      <button type="submit">Send tilbakemelding</button>
+    </form>
+
+
+    <section class="testimonials">
+  <h2>Hva andre sier om CRAFTSVILLA</h2>
+
+  <div class="testimonial-container">
+
+    <article class="testimonial-card">
+      <img
+        src="images/emma.png"
+        alt="Profilbilde av Emma"
+        class="profile-image"
+      >
+
+      <div>
+        <h3>Emma</h3>
+        <p>
+          Jeg hadde det utrolig hyggelig på mosaikkworkshopen.
+          Det var avslappende, sosialt og veldig inspirerende.
+        </p>
+      </div>
+    </article>
+
+    <article class="testimonial-card">
+      <img
+        src="images/jonas.png"
+        alt="Profilbilde av Jonas"
+        class="profile-image"
+      >
+
+      <div>
+        <h3>Jonas</h3>
+        <p>
+          En veldig fin opplevelse. Instruktøren var flink til å
+          forklare, og jeg lærte mye under workshopen.
+        </p>
+      </div>
+    </article>
+
+    <article class="testimonial-card">
+      <img
+        src="images/sara.png"
+        alt="Profilbilde av Sara"
+        class="profile-image"
+      >
+
+      <div>
+        <h3>Sara</h3>
+        <p>
+          Jeg kommer definitivt tilbake. Perfekt aktivitet sammen
+          med venner.
+        </p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+    <footer>
+      <h3>post@craftsvilla@gmail.com +47 12345678</h3>
+      <a href="index.html">Homepage</a>
+      <a href="booking.html">Booking</a>
+      <a href="gallery.html">Gallery</a>
+
+      <div class="socials">
+        <img src="icons/akar-icons--facebook-fill.svg" alt="facebook">
+      </div>
+
+      <div class="socials">
+        <img src="icons/akar-icons--twitter-fill.svg" alt="twitter">
+      </div>
+
+      <div class="socials">
+
+        <img src="icons/akar-icons--tiktok-fill.svg" alt="tiktok">
+      </div>
+
+      <div class="socials">
+        <img src="icons/akar-icons--instagram-fill.svg" alt="instagram">
+      </div>
+    </footer>
+
+</body>
+</html>

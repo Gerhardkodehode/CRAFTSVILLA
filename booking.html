@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="title">Workshop-alternativer</h2>
+    <article class="product-cards">
+      <div>
+        <img src="images/angel.jpg" alt="Angel" />
+        <h2>Mosaikkkunst</h2>
+        <p>
+          Sett inkluderer: Ramme, A4 størrelse treplate, små fargede steiner,
+          gummi.
+        </p>
+        <h3>400,-</h3>
+        <button>Bestill nå</button>
+      </div>
+
+      <div>
+        <img src="images/forrest.webp" alt="forrest" />
+        <h2>Akvarellmaling</h2>
+        <p>
+          Sett inkluderer: Ramme, akvarellpapir med designmal, akvarellfarger,
+          pensler.
+        </p>
+        <h3>200,-</h3>
+        <button>Bestill nå</button>
+      </div>
+
+      <div>
+        <img src="images/woman.jpeg" alt=">Woman" />
+        <h2>Lerretsmaling</h2>
+        <p>
+          Sett inkluderer: Ramme, akrylpapir med designmal, akrylfarger,
+          pensler.
+        </p>
+        <h3>300,-</h3>
+        <button>Bestill nå</button>
+      </div>
+    </article>
+
+    <div class="wrap">
+      <form class="form">
+        <label for="name">Navn:</label>
+        <input type="text" name="name" placeholder="Skriv inn navnet ditt" />
+        <label for="email">E-post:</label>
+        <input type="email" name="email" placeholder="Skriv inn eposten din" />
+        <label for="phone">Telefonnummer:</label>
+        <input
+          type="tel"
+          name="telefon"
+          placeholder="Skriv inn ditt telefonnummer"
+        />
+
+        <label for="Workshop">Velg Workshop</label>
+        <select name="Workshop" id="Workshop">
+          <option value="mosaikkkunst">Mosaikkkunst</option>
+          <option value="akvarellmaling">Akvarellmaling</option>
+          <option value="lerretsmaling">Lerretsmaling</option>
+
+          <input type="date" />
+          <input type="time" />
+          <label for="antall deltakere">Antall deltakere</label>
+          <input type="number" />
+          <label for="spesielle ønsker">Spesielle ønsker</label>
+          <input type="text" placeholder="Legg inn ønsker" />
+        </select>
+        <button type="submit">Send inn</button>
+      </form>
+    </div>
+
+    <footer>
+      <h3>post@craftsvilla@gmail.com +47 12345678</h3>
+      <a href="index.html">Homepage</a>
+      <a href="Review.html">Review</a>
+      <a href="gallery.html">Gallery</a>
+
+      <div class="socials">
+        <img src="icons/akar-icons--facebook-fill.svg" alt="facebook" />
+      </div>
+
+      <div class="socials">
+        <img src="icons/akar-icons--twitter-fill.svg" alt="twitter" />
+      </div>
+
+      <div class="socials">
+        <img src="icons/akar-icons--tiktok-fill.svg" alt="tiktok" />
+      </div>
+
+      <div class="socials">
+        <img src="icons/akar-icons--instagram-fill.svg" alt="instagram" />
+      </div>
+    </footer>
+  </body>
+</html>
